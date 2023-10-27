@@ -58,3 +58,7 @@ body {
 .home .welcome-text {
     font-size: 2.2rem;
 }
+
+.box-bg {
+    background-color: rgba(255,102,0);
+}
