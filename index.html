@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Simple Company</title>
 </head>
-<body>
+<body  data-bs-spy="scroll" data-bs-target="#navbar-example">
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light bg-light fixed-top">
+<nav id="navbar-example" class="navbar navbar-expand-lg bg-body-tertiary navbar-light bg-light fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#"><i class="fa-solid fa-house-tsunami fa-xl orange-color pe-2 pt-3 pb-3"></i>Holiday Paradise</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -209,5 +209,14 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+<script>
+    const nav = document.querySelector('.navbar-collapse')
+
+document.addEventListener('click',() => {
+    if (nav.classList.contains('show')){
+        nav.classList.remove('show')
+    }
+})
+</script>
 </body>
 </html>
