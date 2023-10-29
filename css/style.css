@@ -78,6 +78,7 @@ body {
 }
 
 .accordion-button:not(.collapse){
+    color: #ff5900;
     background-color: rgba(248, 248, 248);
 }
 .directions {
@@ -92,3 +93,4 @@ body {
 .directions .card-title {
     font-size: 2rem;
 }
+
