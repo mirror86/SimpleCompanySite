@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+:root {
+    --primary-color: rgb(223, 103, 28);
+}
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -11,7 +13,6 @@ html {
 body {
     position: relative;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.6rem;
 
 }
 
@@ -35,7 +36,7 @@ body {
 }
 
 .orange-color {
-    color: rgb(223, 103, 28);
+    color: var(--primary-color);
 }
 .navbar-brand {
     font-size: 2.2rem;
@@ -49,7 +50,12 @@ body {
 .navbar-toggler {
     padding: 1em 2em;
 }
-
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--primary-color);
+}
+.nav-link.active {
+    color: var(--primary-color);
+}
 .home {
     position: relative;
     height: 60rem;
@@ -103,10 +109,13 @@ body {
 .directions .card-img-top {
     height: 300px;
     object-fit: cover;
+    padding-bottom: 10px;
 
 }
 .card {
     box-shadow: 10px 5px 15px #c5c0c0;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .directions .card-title {
