@@ -98,6 +98,10 @@ body {
     background-color: var(--primary-color);
 }
 
+.aboutUS {
+    margin-top: 3rem;
+}
+
 .aboutUS-box {
     border: none;
     border-radius: 8px;
@@ -148,10 +152,11 @@ body {
 .card-img-top {
     position: relative;
 }
-.card:hover {
-transform: scale(1.1);
 
-}
+
+/*.card:hover {*/
+/*transform: scale(1.1);*/
+/*}*/
 
 .img-shadow {
     position: absolute;
@@ -178,35 +183,6 @@ transform: scale(1.1);
     font-size: 1.6rem;
 }
 
-input {
-    padding: 1em;
-    /*width: 400px;*/
-    border-radius: 8px;
-    font-size: 1rem;
-    border: 2px solid grey;
-    background: none;
-    color: #aaaaaa;
-}
-
-label {
-    color: #ffff;
-    background:none;
-    position: absolute;
-    top: 25%;
-    left: 2%;
-    padding: 0 5px 5px;
-    font-size: 1.6rem;transition:  transform .3s;
-}
-
-input:focus {
-    outline: none;
-    border: 2px solid mediumpurple;
-}
-
-input:focus~ label {
-    transform: translateY(-90%);
-
-}
 
 @media (min-width: 576px) {
     .home .welcome-title {
