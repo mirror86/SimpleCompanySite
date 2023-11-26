@@ -48,37 +48,37 @@
     <div class="container py-5 aboutUS-boxes">
         <div class="row text-center">
             <div class="col-12 col-md-6 col-lg-3">
-                <div class="aboutUS-box m-3 p-5 p-lg-5 border text-dark">
+                <div class="aboutUS-box m-3 p-5 p-lg-5 border">
                     <h3 class="pb-2">Jakość</h3>
-                    <i class="fa-solid fa-building-shield aboutUs-icon pb-5" style="color: #ffd500;"></i>
+                    <i class="fa-solid fa-building-shield aboutUs-icon pb-5 " ></i>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, voluptates!</p>
                 </div>
             </div>
 
             <div class="col-12 col-md-6 col-lg-3">
-                <div class="aboutUS-box m-3 p-5 p-lg-5 border text-light box-bg">
-                    <h3 class="pb-2" style="color: #000000">Profesjonalizm</h3>
-                    <i class="fa-solid fa-handshake aboutUs-icon pb-5" style="color: #ffd500;"></i>
-                    <p style="color: #000000">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque,
+                <div class="aboutUS-box m-3 p-5 p-lg-5 border box-bg">
+                    <h3 class="pb-2" >Profesjonalizm</h3>
+                    <i class="fa-regular fa-handshake aboutUs-icon pb-5 "></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque,
                         voluptates!</p>
                 </div>
             </div>
 
 
             <div class="col-12 col-md-6 col-lg-3">
-                <div class="aboutUS-box m-3 p-5 p-lg-5 border text-dark">
+                <div class="aboutUS-box m-3 p-5 p-lg-5 border">
                     <h3 class="pb-2">Doświadczenie</h3>
-                    <i class="fa-solid fa-clock-rotate-left aboutUs-icon pb-5" style="color: #ffd500;"></i>
+                    <i class="fa-solid fa-clock-rotate-left aboutUs-icon pb-5 "></i>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, voluptates!</p>
                 </div>
             </div>
 
 
             <div class="col-12 col-md-6 col-lg-3">
-                <div class="aboutUS-box m-3 p-5 p-lg-5 border text-light box-bg">
-                    <h3 class="pb-2" style="color: #000000">Najlepsze ceny</h3>
-                    <i class="fa-solid fa-hand-holding-dollar aboutUs-icon pb-5" style="color: #ffd500;"></i>
-                    <p style="color: #000000">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque,
+                <div class="aboutUS-box m-3 p-5 p-lg-5 border  box-bg">
+                    <h3 class="pb-2">Najlepsze ceny</h3>
+                    <i class="fa-solid fa-hand-holding-dollar aboutUs-icon pb-5 "></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque,
                         voluptates!</p>
                 </div>
             </div>
@@ -146,7 +146,8 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
             <div class="col">
                 <div class="card h-100">
-                    <img src="./img/greece.jpg" class="card-img-top" alt="...">
+                    <img src="./img/greece.jpg" class="card-img-top" alt="Partenon">
+                    <div class="img-shadow"></div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Grecja</h5>
                         <p class="card-text p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae culpa
@@ -156,7 +157,8 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="./img/italy.jpg" class="card-img-top" alt="...">
+                    <img src="./img/italy.jpg" class="card-img-top" alt="zdjęcie Wenecji">
+                    <div class="img-shadow"></div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Włochy</h5>
                         <p class="card-text p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
@@ -166,7 +168,8 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="./img/malta.jpg" class="card-img-top" alt="...">
+                    <img src="./img/malta.jpg" class="card-img-top" alt="zdjęcie Azuro Window">
+                    <div class="img-shadow"></div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Malta</h5>
                         <p class="card-text p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cumque
@@ -176,7 +179,8 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="./img/spain.jpg" class="card-img-top" alt="...">
+                    <img src="./img/spain.jpg" class="card-img-top" alt="kościół Sagrada de Familia">
+                    <div class="img-shadow"></div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Hiszpania</h5>
                         <p class="card-text p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi autem,
@@ -194,13 +198,16 @@
             <div class="col-lg-9 my-5 m-lg-0">
                 <form>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control fs-4" placeholder="Imię i nazwisko">
+                        <input type="text" id="name" class="form-control">
+                        <label for="name">Imię i Nazwisko:</label>
                     </div>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control fs-4" placeholder="E-mail">
+                        <input type="text" class="form-control">
+                        <label for="name">ImE-mail:</label>
                     </div>
                     <div class="input-group mb-3">
-                        <textarea rows="6" class="form-control fs-4" placeholder="Napisz wiadomość"></textarea>
+                        <textarea rows="6" class="form-control" ></textarea>
+                        <label for="name">Napisz wiadomość:</label>
                     </div>
                     <input type="submit" value="Wyślij" class="btn btn-light px-4 py-2 submit-btn">
                 </form>
