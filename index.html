@@ -44,7 +44,7 @@
         <div class="hero-shadow"></div>
     </div>
 </section>
-<section id="aboutUS">
+<section id="aboutUS" class="aboutUS">
     <div class="container py-5 aboutUS-boxes">
         <div class="row text-center">
             <div class="col-12 col-md-6 col-lg-3">
@@ -197,17 +197,17 @@
         <div class="row">
             <div class="col-lg-9 my-5 m-lg-0">
                 <form>
-                    <div class="input-group mb-3">
-                        <input type="text" id="name" class="form-control">
+                    <div class="input-group d-flex flex-column-revert mb-3">
                         <label for="name">Imię i Nazwisko:</label>
+                        <input type="text" id="name" class="form-control w-100">
                     </div>
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control">
-                        <label for="name">ImE-mail:</label>
+                    <div class="input-group d-flex flex-column-revert mb-3">
+                        <label for="email">E-mail:</label>
+                        <input type="text" id="email" class="form-control w-100">
                     </div>
-                    <div class="input-group mb-3">
-                        <textarea rows="6" class="form-control" ></textarea>
-                        <label for="name">Napisz wiadomość:</label>
+                    <div class="input-group d-flex flex-column-revert mb-3">
+                        <label for="textarea">Napisz wiadomość:</label>
+                        <textarea rows="6" id="textarea" class="form-control w-100" ></textarea>
                     </div>
                     <input type="submit" value="Wyślij" class="btn btn-light px-4 py-2 submit-btn">
                 </form>
